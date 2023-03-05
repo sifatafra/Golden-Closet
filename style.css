@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 200px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.camera {
+    display: flex;
+    gap: 100px;
+    margin: 20px 200px;
+    align-items: center;
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.img-bg {
+    background-image: url(./images/Circle\ design.svg);
+}
+
+.book {
+    background-color: #E02C6D;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.more {
+    color: orangered;
+    display: flex;
+    justify-content: end;
+
+}
+
+.logo {
+    display: flex;
+    gap: 60px;
+    margin: 30px 200px;
+}
+
+.logos {
+    margin: 100px 0;
+}
+
+.collection {
+    text-align: center;
+    margin: 10px 200px;
+}
+
+.gold {
+    color: gold;
+    display: flex;
+    align-items: center;
+}
+
+.gray {
+    margin-left: 10px;
+    color: black;
+}
+
+.pics {
+    margin: 50px 50px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.pictures {
+
+    border: 2px solid whitesmoke;
+
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
